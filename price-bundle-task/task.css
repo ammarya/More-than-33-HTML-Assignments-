@@ -1,0 +1,90 @@
+table {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #68696a;
+  font-size: 20px;
+  text-align: center;
+  border-spacing: 0px;
+}
+thead {
+  background-color: #fc5103;
+  color: #f7f7f7;
+  border-right: 1px solid #f86a29;
+}
+thead td {
+  border-right: 1px solid #f86a29;
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #fafafa;
+}
+tbody td {
+  border-right: 1px solid #eeee;
+}
+
+td.orange button {
+  background-color: #fc5103;
+  border: 5px #fc5103 solid;
+  border-radius: 5px;
+  width: 80px;
+  height: 35px;
+  font: size 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+td button {
+  background-color: #333333;
+  color: #e7f6fa;
+  border: 5px #333333 solid;
+  border-radius: 5px;
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+td {
+  padding: 25px;
+  font-weight: 500;
+  border-spacing: 0px;
+}
+
+td span {
+  color: #fc5103;
+  font-size: 60px;
+  position: relative;
+  right: 5px;
+}
+sup {
+  font-weight: bold;
+  color: #68696a;
+  font-size: 20px;
+  position: absolute;
+  top: 13px;
+  right: -28px;
+}
+
+sup.doller-sign {
+  position: relative;
+  top: -24px;
+  right: 7px;
+}
+
+tr.num td {
+  color: #babcbc;
+}
+
+td.fade {
+  color: #a9aaaa;
+}
+
+tfoot td {
+  background-color: #f7f7f7;
+  border-right: 1px solid #eeee;
+}

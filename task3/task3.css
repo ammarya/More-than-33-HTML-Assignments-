@@ -1,0 +1,126 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f6f6f6;
+  /* overflow: hidden; */
+  text-transform: capitalize;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.parent {
+  overflow: hidden;
+
+}
+
+.parent .saving {
+  background-color: #2196f3;
+  color: #fffefe;
+  width: fit-content;
+  padding: 10px;
+  float: right;
+  margin: 20px 30px 0 auto;
+  
+}
+.parent .clear {
+  clear:right ;
+}
+
+.parent .saving ::before {
+  content: "";
+  border-style: solid;
+  border-color: #2196f3 green #2196f3 red;
+  border-width: 20px;
+  position: absolute;
+}
+
+/* .saving {
+  background-color: #2196f3; 
+  color: #fffefe;
+  margin: 0 0 0 1180px;
+  padding: 0 0 0 20px; 
+  width: 150px;
+  line-height: 0;
+  border-top: 20px solid #2196f3;
+  border-bottom: 20px solid #2196f3;
+  border-right: 20px solid #f6f6f6;
+  
+} */
+
+/* .saving ::after {
+  content: "";
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent #3f4ca2 #3f4ca2 transparent;
+} */
+
+/* .parent .basic{
+  margin: 20px 30px 60px 60px;
+}
+
+.parent .professional {
+  margin: 20px 60px 0 0;
+} */
+
+.parent .basic, .professional {
+  float: left;
+  width: 48.5%;
+  margin-left: 1%;
+  padding: 20px;
+}
+
+
+.parent .orange,.blue {
+  padding: 15px ;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0;
+} 
+
+.parent .basic .orange {
+  background-color: #f44336;
+  color: #fffefe;
+  
+}
+
+.parent .professional .blue {
+  background-color: #2196f3;
+  color: #fffefe;
+}
+
+.parent ul {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.parent li {
+  list-style: none;
+  padding: 15px 1px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.parent .yes, .no {
+  padding: 1px 5px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.parent .yes {
+  background-color: #009688;
+  color: #fffefe;
+}
+
+.parent .no {
+  background-color: #e91e63;
+  color: #fffefe;
+}
+
+.ask {
+  background-color: #7e7e7e;
+  color: #fffefe;
+  padding: 1px 8px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 20px ;
+}

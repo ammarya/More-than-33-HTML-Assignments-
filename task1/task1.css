@@ -1,0 +1,170 @@
+div {
+  font-family: "Open Sans", sans-serif;
+  background-color: #242424;
+  width: 24%;
+  text-align: center;
+  padding: 30px 0 70px;
+  border-right: 1px solid #333333;
+  float: left;
+  margin: 40px auto;
+}
+
+h2 {
+  color: #ffffff;
+}
+p {
+  color: #ffffff;
+}
+
+ul {
+  color: #605f5c;
+  list-style: none;
+  font-size: 15px;
+  color: #605f5c;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+li {
+  padding: 15px 0;
+  border-top: 1px solid #333333;
+}
+li:nth-of-type(even) {
+  background-color: #2a2a2a;
+}
+
+a {
+  background-color: #242424;
+  padding: 10px 30px;
+  border: 1px solid #666;
+  color: #fefeff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.premium {
+  border-right: 1px solid #4ac1f6;
+  background-color: #03a9f4;
+  padding: 65px 0 110px;
+  margin: 5px auto;
+}
+
+.premium li {
+  border-top: 1px solid #4ac1f6;
+  color: #e4f0fb;
+  background-color: #03a9f4;
+  
+}
+
+.premium a {
+  border: 1px solid #4ac1f6;
+  background-color: #03a9f4;
+
+}
+
+.underline:nth-of-type(4){
+  border-bottom: 1px solid #4ac1f6;
+}
+
+.price {
+  font-size: x-large;
+  font-weight: bold;
+}
+.dollar-sign {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 10px;
+}
+
+.duration {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+
+
+
+
+/* div.unlimited {
+  position: absolute;
+  left: 866px;
+  border-right: 1px solid #333333;
+}
+
+div.premium {
+  position: absolute;
+  left: 580px;
+  border-right: 1px solid #4ac1f6;
+  background-color: #03a9f4;
+  height: 550px;
+}
+
+div.standard {
+  position: absolute;
+  left: 294px;
+  border-right: 1px solid #333333;
+}
+
+div.basic {
+  position: absolute;
+  left: 8px;
+  border-right: 1px solid #333333;
+}
+
+ul.head {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 30px 20px 0 20px;
+}
+ul span.dollar-sign {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  bottom: 10px;
+}
+
+span.duration {
+  font-size: medium;
+}
+
+ul.body {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #605f5c;
+  padding: 15px 20px;
+  border-top: 1px solid #333333;
+  margin: 0 -30px;
+}
+
+ul.body:nth-of-type(odd) {
+  background-color: #2a2a2a;
+}
+
+ul.foot {
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.premium ul.foot button {
+  border: 1px solid #4ac1f6;
+  background-color: #03a9f4;
+}
+div.premium ul.foot,
+div.premium ul.body {
+  border-top: 1px solid #4ac1f6;
+  color: #e4f0fb;
+  background-color: #03a9f4;
+  margin: 0 -30px;
+}
+button {
+  background-color: #242424;
+  padding: 10px 30px;
+  border: 1px solid #666;
+  color: #fefeff;
+  cursor: pointer;
+} */
